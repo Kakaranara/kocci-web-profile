@@ -1,10 +1,9 @@
 export function NavBar() {
     return (
         <>
-            <nav>
-                <ul>
+            <nav className="flex flex-row justify-end">
+                <ul className="flex flex-row gap-2">
                     <li>Work</li>
-                    <span ></span>
                     <li>About</li>
                 </ul>
             </nav>
