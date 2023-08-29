@@ -1,0 +1,12 @@
+
+.headline{
+    @apply hidden md:inline-block whitespace-pre-wrap font-bold text-3xl md:text-4xl mb-6;
+}
+
+.headlineMobile{
+    @apply inline-block md:hidden whitespace-pre-wrap font-bold text-3xl md:text-4xl mb-6;
+}
+
+.description{
+    @apply whitespace-pre-wrap text-sm sm:text-base gap-10 ;
+}

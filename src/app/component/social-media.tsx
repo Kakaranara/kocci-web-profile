@@ -7,7 +7,7 @@ export default function SocialMedia() {
     const iconSize: number = 36
     const listIcon: Array<StaticImageData> = [linkedinImg, instagramImg, waImg]
     return (
-        <div className='flex flex-row gap-2 mt-2'>
+        <div className='flex flex-row gap-2 mt-4'>
             {listIcon.map((item: StaticImageData) => (
                 <Image className='cursor-pointer'
                     key={`${item}`}
