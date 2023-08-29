@@ -11,12 +11,12 @@ export default function Dashboard() {
         <div className='mt-12'>
             <h1 className={textStyle.headlineMobile} >{headerIntro}</h1>
             <div className='flex flex-row'>
-                <div className='flex flex-col justify-start w-4/6 pr-10'>
+                <div className='flex flex-col justify-start w-4/6 xl:w-1/2 pr-10'>
                     <h1 className={textStyle.headline}>{headerIntro}</h1>
                     <p className={textStyle.description}>{intro}</p>
                     <SocialMedia />
                 </div>
-                <div className='flex justify-end items-start w-2/6'>
+                <div className='flex justify-end items-start w-2/6 xl:w-1/2'>
                     <Image className='lg:h-full'
                         src={welcomeImage}
                         alt='handphone img'
