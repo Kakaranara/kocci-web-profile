@@ -1,8 +1,11 @@
-export default function MyProject(){
-    return (<>
+import textStyles from "./../../styles/text-util.module.css"
 
-        <div>
-            <h1>Projects </h1>
-        </div>
-    </>)
+export default function MyProject() {
+    return (
+        <div className="mt-4">
+
+            <div id="project">
+                <h1 className={textStyles.headline}>Projects </h1>
+            </div>
+        </div>)
 }
