@@ -9,10 +9,10 @@ export default function Dashboard() {
     const headerIntro: string = strings.header
     return (
         <div className='mt-12'>
-            <h1 className={textStyle.headlineMobile} >{headerIntro}</h1>
+            <h1 className={textStyle.headlineMobileScreen} >{headerIntro}</h1>
             <div className='flex flex-row'>
                 <div className='flex flex-col justify-start w-4/6 xl:w-1/2 pr-10'>
-                    <h1 className={textStyle.headline}>{headerIntro}</h1>
+                    <h1 className={textStyle.headlineLargeScreen}>{headerIntro}</h1>
                     <p className={textStyle.description}>{intro}</p>
                     <SocialMedia />
                 </div>
