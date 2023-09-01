@@ -36,5 +36,6 @@ body {
     padding-right: 9rem;
     padding-left: 6rem;
     max-width: 84rem;
+    margin: auto;
   }
 }

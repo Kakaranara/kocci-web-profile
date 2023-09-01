@@ -9,15 +9,15 @@ export default function Dashboard() {
     const headerIntro: string = strings.header
     return (
         <div className='mt-12'>
-            <h1 className={`${textStyle.headline} inline-block md:hidden`}  >{headerIntro}</h1>
+            <h1 className={`${textStyle.headline} inline-block sm:hidden`}  >{headerIntro}</h1>
             <div className='flex flex-row'>
                 <div className='flex flex-col justify-start w-4/6  pr-10'>
-                    <h1 className={textStyle.headline + " hidden md:inline-block"}>{headerIntro}</h1>
+                    <h1 className={textStyle.headline + " hidden sm:inline-block"}>{headerIntro}</h1>
                     <p className={textStyle.description}>{intro}</p>
                     <SocialMedia />
                 </div>
                 <div className='flex justify-end items-start w-2/6 '>
-                    <Image className='p-4'
+                    <Image className='sm:p-4'
                         src={welcomeImage}
                         alt='handphone img'
                         width={0}

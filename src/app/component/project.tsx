@@ -5,7 +5,7 @@ export default function MyProject() {
         <div className="mt-4">
             <div id="project">
                 <h1 className={textStyles.headline}>Projects</h1>
-                
+                <h1>Coming Soon</h1>
             </div>
         </div>)
 }
