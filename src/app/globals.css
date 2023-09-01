@@ -35,5 +35,6 @@ body {
     padding-bottom: 3rem;
     padding-right: 9rem;
     padding-left: 6rem;
+    max-width: 84rem;
   }
 }

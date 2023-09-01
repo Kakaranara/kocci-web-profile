@@ -5,7 +5,7 @@ import MyProject from './component/project'
 export default function Home() {
   return (
     <>
-      <NavBar/>
+      <NavBar canBackHome={false} />
       <Dashboard/>
       <MyProject/>
     </>
