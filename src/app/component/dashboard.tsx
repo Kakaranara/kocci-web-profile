@@ -16,7 +16,7 @@ export default function Dashboard() {
                     <p className={textStyle.description}>{intro}</p>
                     <SocialMedia />
                 </div>
-                <div className='flex justify-end items-start w-2/6 '>
+                <div className='flex flex-row justify-end items-start w-2/6'>
                     <Image className='sm:p-4'
                         src={welcomeImage}
                         alt='handphone img'
