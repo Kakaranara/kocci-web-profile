@@ -11,7 +11,7 @@ export default function ProjectCard() {
                 <h4 className={textStyle.description}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatum molestiae aliquam repellendus optio labore voluptatibus iusto illum animi incidunt, laudantium mollitia eum expedita sint totam, sapiente, soluta quam dolorum!</h4>
             </div>
             <div className="w-2/6">
-                <Image className=""
+                <Image className="md:w-1/2"
                     key={randomUUID()}
                     src={linkedinImg}
                     width={0}
