@@ -10,7 +10,7 @@ export default function ProjectCard(props: {
 }) {
     const {title, overviewDesc, portofolioGif: image} = props
     return (
-        <div className="flex flex-col md:flex-row md:justify-center items-center gap-6 mt-12">
+        <div className="flex flex-col md:flex-row md:justify-center items-center gap-6 mt-12 cursor-pointer">
             <div className="flex flex-col flex-1 w-4/6">
                 <h1 className={textStyle.title}>{title}</h1>
                 <h4 className={textStyle.description}>{overviewDesc}</h4>
