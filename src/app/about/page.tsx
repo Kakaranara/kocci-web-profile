@@ -12,7 +12,7 @@ export default function AboutScreen() {
                 <h1 className={textStyles.headline}>Hello fellas!</h1>
                 <div className="flex flex-col md:flex-row gap-12">
                     <div className="w-full md:w-1/2 order-2 md:order-1">
-                        <p className="whitespace-pre-wrap text-lg">{strings.aboutMe2}</p>
+                        <p className="whitespace-pre-wrap text-lg">{strings.aboutMe}</p>
                     </div>
                     <div className="md:w-1/2 order-1 md:order-2">
                         <Image src={selfPhoto}
