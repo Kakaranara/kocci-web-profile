@@ -2,9 +2,9 @@ import textStyles from "./../../../styles/text-util.module.css"
 import ProjectCard from "./projectCard"
 import strings from "../../../assets/strings/intro.json"
 import healtikuy from "../../../../public/portofolio-gif/Healtikuy.gif"
-import disasterTracker from "../../../../public/portofolio-gif/disaster tracker.gif"
-import bisaDesign from "../../../../public/portofolio-gif/bisa design.gif"
-import petCare from "../../../../public/portofolio-gif/pet care.gif"
+import disasterTracker from "../../../../public/portofolio-gif/Disaster Tracker.gif"
+import bisaDesign from "../../../../public/portofolio-gif/Bisa Design.gif"
+import petCare from "../../../../public/portofolio-gif/Pet Care.gif"
 
 export default function MyProject() {
     const projects = strings.project;
