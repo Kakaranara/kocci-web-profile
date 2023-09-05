@@ -1,12 +1,11 @@
 import Image, { StaticImageData } from "next/image"
-import linkedinImg from '../../../assets/images/icon/linkedin.png'
 import textStyle from "./../../../styles/text-util.module.css"
-import { randomBytes, randomUUID } from "crypto"
+import { randomUUID } from "crypto"
 
 export default function ProjectCard(props: {
     title: string,
     overviewDesc: string,
-    portofolioGif : any 
+    portofolioGif : StaticImageData 
 }) {
     const {title, overviewDesc, portofolioGif: image} = props
     return (

@@ -1,13 +1,28 @@
-import Image from "next/image"
 import textStyles from "./../../../styles/text-util.module.css"
-import linkedinImg from '../../../assets/images/icon/linkedin.png'
-import textStyle from "./../../../styles/text-util.module.css"
 import ProjectCard from "./projectCard"
-import { randomUUID } from "crypto"
 import strings from "../../../assets/strings/intro.json"
+import healtikuy from "../../../../public/portofolio-gif/Healtikuy.gif"
+import disasterTracker from "../../../../public/portofolio-gif/disaster tracker.gif"
+import bisaDesign from "../../../../public/portofolio-gif/bisa design.gif"
+import petCare from "../../../../public/portofolio-gif/pet care.gif"
 
 export default function MyProject() {
     const projects = strings.project;
+    const getPortofolioGif = (title : string) => {
+        switch (title) {
+          case "Healtikuy":
+            return healtikuy;
+          case "Disaster Tracker":
+            return disasterTracker;
+          case "Bisa Design Academy":
+            return bisaDesign;
+          case "Pet Care":
+            return petCare;
+          default:
+            // Handle any other cases or provide a default image
+            throw TypeError()
+        }
+      };
     return (
         <div className="mt-4">
             <div id="project">
@@ -17,7 +32,7 @@ export default function MyProject() {
                         <ProjectCard
                             overviewDesc={item.overview}
                             title={item.title}
-                            portofolioGif={linkedinImg} //still debug
+                            portofolioGif={getPortofolioGif(item.title)} //still debug
                         />
                     ))}
                 </div>
