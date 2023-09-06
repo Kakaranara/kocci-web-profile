@@ -1,28 +1,32 @@
 {
     "header": "Hello, i'm Wahyu. \nI'm a Mobile Developer.",
     "intro": "I specialize in creating Mobile Applications using Android Native Technologies with Kotlin or Java, as well as Hybrid Technology using Flutter. \n\nThroughout my journey I've successfully developed projects focused on healthy lifestyles, educational applications, and more. \n\nLet's connect and discuss how we can bring your app ideas to life.",
-    "aboutMe": "My name Wahyu Koco I am an individual who possesses a profound passion for mobile programming, with a particular affinity for Android development. The process of crafting mobile applications not only brings me immense joy but also offers an opportunity to delve into a myriad of creative possibilities. \n\nMy adaptability is a defining trait, and I treat every individual with the utmost respect. I always respect other people's opinions, and look for the middle point in a problem. I'm also a rational person, and don't get attached to temporary feelings.\n\nCollaboration within a team setting is one of my strong suits, and I am proficient in utilizing Git for version control, whether on platforms like GitHub or GitLab. I am also well-versed in project management methodologies, with experience in handling Scrum and Kanban boards using tools such as Jira and Trello.",
+    "aboutMe": "My name is Wahyu Koco, and Imm an individual who possesses a profound passion for mobile programming, with a particular affinity for Android development. The process of crafting mobile applications not only brings me immense joy but also offers an opportunity to delve into a myriad of creative possibilities. \n\nMy adaptability is a defining trait, and I treat every individual with the utmost respect. I always respect other people's opinions, and look for the middle point in a problem. I'm also a rational person, and don't get attached to temporary feelings.\n\nCollaboration within a team setting is one of my strong suits, and I am proficient in utilizing Git for version control, whether on platforms like GitHub or GitLab. I am also well-versed in project management methodologies, with experience in handling Scrum and Kanban boards using tools such as Jira and Trello.",
     "project": [
-        
         {
             "title": "Bisa Design Academy",
             "overview": "Bisa Design is an android application that educates users about Design lessons. In here, users can read the syllabus, buy courses, do quizzes, submit assignments, and more! Bisa Design is the result of my first internship.",
-            "fullDescription": ""
+            "fullDescription": "",
+            "repositoryLink" : "Source code unavailable (private repository)"
         },
         {
             "title": "Pet Care",
-            "overview": "Petcare is an android application that helps you in the world of pets. Users can post just like social media, but with pets! In addition, users can also set schedules for their pets so that they can be reminded through notifications.",
-            "fullDescription": ""
+            "overview": "Petcare is an android application that helps you in the world of pets. Users can post just like social media, but with pets! In addition, users can also set schedules for their pets so that they can be reminded through notifications",
+            "fullDescription": "",
+            "repositoryLink" : "https://github.com/Kakaranara/petCare-CapstoneProject"
         },
         {
             "title": "Healtikuy",
             "overview": "Healtikuy is an android application that encourages users to have a healthy lifestyle. Healtikuy educates and encourages users to live healthy by implementing Gamification Method. Healtikuy, is also the result of a thesis that I have done.",
-            "fullDescription": ""
+            "fullDescription": "",
+            "repositoryLink" : "https://github.com/Kakaranara/Healtikuy"
         },
         {
             "title": "Disaster Tracker",
-            "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatum molestiae aliquam repellendus optio labore voluptatibus iusto illum animi incidunt, laudantium mollitia eum expedita sint totam, sapiente, soluta quam dolorum!",
-            "fullDescription": ""
+            "overview": "Disaster Tracker is an Android application designed to monitor disasters occurring in Indonesia. Currently, the app solely relies on crowd-sourced reports from users to track disasters. However, there are plans for future updates that will enhance its functionality. This application is the culmination of a final project developed as part of the Generasi Gigih program by the Goto Impact Foundation.",
+            "fullDescription": "",
+            "repositoryLink" : "https://github.com/GG-3-0-Mobile-Engineering/ME14-DisasterTracker-GG3MEGP0596-WahyuKoco"
+
         }
     ]
 }

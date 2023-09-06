@@ -32,7 +32,8 @@ export default function MyProject() {
                         <ProjectCard
                             overviewDesc={item.overview}
                             title={item.title}
-                            portofolioGif={getPortofolioGif(item.title)} //still debug
+                            portofolioGif={getPortofolioGif(item.title)} 
+                            portofolioLink={item.repositoryLink}
                         />
                     ))}
                 </div>
