@@ -11,7 +11,7 @@ export default function SocialMedia() {
     const socmedList: Array<{ image: StaticImageData, name: string, link: string }> = [
         { image: linkedinImg, name: "Linkedin", link: "https://www.linkedin.com/in/wahyu-koco/" },
         { image: instagramImg, name: "Instagram", link: "https://www.instagram.com/wahyu_koco224/" },
-        { image: waImg, name: "Whatsapp", link: "https://wa.me/083872155420" }
+        { image: waImg, name: "Whatsapp", link: "https://wa.me/6283872155420" }
     ]
     return (
         <div className='flex flex-row gap-2 mt-4'>

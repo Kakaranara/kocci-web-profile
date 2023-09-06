@@ -28,11 +28,11 @@ export default function ProjectCard(props: {
             <div className="flex flex-col flex-1 w-full md:w-4/6">
                 <h1 className={textStyle.title}>{title}</h1>
                 <h4 className={textStyle.description}>{overviewDesc}</h4>
-                {renderLink()}
+                {renderLink()} 
             </div>
-            <div className=" w-3/4 px-4 md:px-4 md:w-2/6 flex flex-col items-ends">
-                <div className="border-[5px] border-gray-50 rounded-2xl overflow-hidden">
-                    <Image className="rounded-sm"
+            <div className=" w-full px-4 md:p-0 md:w-2/6 flex flex-col items-end">
+                <div className="border-[4px] border-gray-100 w-[85%] rounded-2xl overflow-hidden shadow-[15px_15px_30px_-15px_rgba(0,0,0,0.3)]">
+                    <Image className="rounded-sm w-full"
                         key={randomUUID()}
                         src={portofolioGif}
                         width={0}
