@@ -30,13 +30,13 @@ export default function ProjectCard(props: {
                 <h4 className={textStyle.description}>{overviewDesc}</h4>
                 {renderLink()}
             </div>
-            <div className="w-2/6 flex flex-col items-end">
+            <div className=" w-3/4 px-4 md:px-4 md:w-2/6 flex flex-col items-ends">
                 <div className="border-[5px] border-gray-50 rounded-2xl overflow-hidden">
                     <Image className="rounded-sm"
                         key={randomUUID()}
                         src={portofolioGif}
                         width={0}
-                        height={500}
+                        height={0}
                         alt="Portofolio Showcase.gif" />
                 </div>
             </div>
