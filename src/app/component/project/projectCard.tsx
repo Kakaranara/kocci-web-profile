@@ -28,7 +28,7 @@ export default function ProjectCard(props: {
     const renderNextProject = () => {
         if (nextProjectId != null) {
             return (
-                <div className="w-fit mt-8 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                <div className="hidden md:inline-block max-w-fit mt-8 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                     <a href={nextProjectId} className="flex flex-row items-center scroll-smooth">
                         <h1 className="mr-2">Go to next project</h1>
                         <AiOutlineArrowRight />
