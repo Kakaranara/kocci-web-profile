@@ -14,7 +14,7 @@ export default function ProjectCard(props: {
     const renderLink = () => {
         if (portofolioLink.startsWith("http")) {
             return (
-                <a target='_blank' href={portofolioLink} rel="noopener noreferrer" className="text-blue-600">
+                <a target='_blank' href={portofolioLink} rel="noopener noreferrer" className="text-blue-600 text-base">
                     Source code Link
                 </a>
             );
@@ -25,7 +25,7 @@ export default function ProjectCard(props: {
 
     return (
         <div className="flex flex-col md:flex-row md:justify-center items-center gap-6 mt-20 cursor-pointer active:bg-gray-300 active:rounded-2xl transition duration-500">
-            <div className="flex flex-col flex-1 w-4/6">
+            <div className="flex flex-col flex-1 w-full md:w-4/6">
                 <h1 className={textStyle.title}>{title}</h1>
                 <h4 className={textStyle.description}>{overviewDesc}</h4>
                 {renderLink()}
@@ -37,7 +37,7 @@ export default function ProjectCard(props: {
                         src={portofolioGif}
                         width={0}
                         height={500}
-                        alt="s" />
+                        alt="Portofolio Showcase.gif" />
                 </div>
             </div>
         </div>
