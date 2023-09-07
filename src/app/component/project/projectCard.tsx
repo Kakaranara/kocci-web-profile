@@ -16,7 +16,7 @@ export default function ProjectCard(props: {
     const renderLink = () => {
         if (portofolioLink.startsWith("http")) {
             return (
-                <a target='_blank' href={portofolioLink} rel="noopener noreferrer" className="text-blue-600 text-base">
+                <a target='_blank' href={portofolioLink} rel="noopener noreferrer" className="text-blue-600 text-base w-fit">
                     Source code Link
                 </a>
             );
