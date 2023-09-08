@@ -13,7 +13,14 @@ export default function ProjectCard(props: {
     nextProjectId: string | null,
     playstoreLink: string | null
 }) {
-    const { title, overviewDesc, portofolioGif, portofolioLink, nextProjectId, playstoreLink } = props
+    const {
+        title,
+        overviewDesc,
+        portofolioGif,
+        portofolioLink,
+        nextProjectId,
+        playstoreLink
+    } = props
 
     const renderLink = () => {
         const sourceCodeComponent = () => {
@@ -23,7 +30,7 @@ export default function ProjectCard(props: {
                         Source code
                     </a>)
             } else {
-                return <p className="text-gray-600">Source code unavailable (private repository)</p>
+                return null
             }
         }
 
@@ -31,7 +38,9 @@ export default function ProjectCard(props: {
 
             if (playstoreLink != null) {
                 return (
-                    <a href={playstoreLink} target='_blank' rel="noopener noreferrer" className={textStyle.standardHref}> Playstore </a>
+                    <a href={playstoreLink} target='_blank' rel="noopener noreferrer" className={textStyle.standardHref}>
+                        Playstore
+                    </a>
                 )
             } else {
                 return null
@@ -42,9 +51,9 @@ export default function ProjectCard(props: {
             /**
              * Maybe this was over-engineering :/
              */
-            <div className="flex flex-row gap-2 w-fit">
+            <div className="flex flex-row gap-2 mt-1 md:mt-0 w-fit">
                 {sourceCodeComponent()}
-                {playstoreLink != null ? "|" : null}
+                {playstoreLink != null && portofolioLink != null ? "|" : null}
                 {playstoreComponent()}
             </div>
         )
