@@ -10,3 +10,7 @@
 .description{
     @apply whitespace-pre-wrap text-sm sm:text-base gap-10 ;
 }
+
+.standardHref{
+    @apply text-blue-600 text-base;
+}

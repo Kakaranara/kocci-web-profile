@@ -43,6 +43,7 @@ export default function MyProject() {
               portofolioGif={getPortofolioGif(item.title)}
               portofolioLink={item.repositoryLink}
               nextProjectId={getNextPorjectId(index)}
+              playstoreLink={item.playstoreLink}
             />
           ))}
         </div>

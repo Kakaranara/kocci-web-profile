@@ -3,26 +3,51 @@ import textStyle from "./../../../styles/text-util.module.css"
 import { randomUUID } from "crypto"
 import Link from "next/link"
 import { AiOutlineArrowRight } from "react-icons/ai"
+import { JsxElement } from "typescript"
 
 export default function ProjectCard(props: {
     title: string,
     overviewDesc: string,
     portofolioGif: StaticImageData,
-    portofolioLink: string,
+    portofolioLink: string | null,
     nextProjectId: string | null,
+    playstoreLink: string | null
 }) {
-    const { title, overviewDesc, portofolioGif, portofolioLink, nextProjectId } = props
+    const { title, overviewDesc, portofolioGif, portofolioLink, nextProjectId, playstoreLink } = props
 
     const renderLink = () => {
-        if (portofolioLink.startsWith("http")) {
-            return (
-                <a target='_blank' href={portofolioLink} rel="noopener noreferrer" className="text-blue-600 text-base w-fit">
-                    Source code Link
-                </a>
-            );
-        } else {
-            return <p className="text-gray-600">{portofolioLink}</p>
+        const sourceCodeComponent = () => {
+            if (portofolioLink != null) {
+                return (
+                    <a target='_blank' href={portofolioLink} rel="noopener noreferrer" className="text-blue-600 text-base">
+                        Source code
+                    </a>)
+            } else {
+                return <p className="text-gray-600">Source code unavailable (private repository)</p>
+            }
         }
+
+        const playstoreComponent = () => {
+
+            if (playstoreLink != null) {
+                return (
+                    <a href={playstoreLink} target='_blank' rel="noopener noreferrer" className={textStyle.standardHref}> Playstore </a>
+                )
+            } else {
+                return null
+            }
+        }
+
+        return (
+            /**
+             * Maybe this was over-engineering :/
+             */
+            <div className="flex flex-row gap-2 w-fit">
+                {sourceCodeComponent()}
+                {playstoreLink != null ? "|" : null}
+                {playstoreComponent()}
+            </div>
+        )
     }
 
     const renderNextProject = () => {
