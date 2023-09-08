@@ -73,7 +73,7 @@ export default function ProjectCard(props: {
     }
 
     return (
-        <div id={title} className="flex flex-col md:flex-row md:justify-center items-center gap-6 mt-20 cursor-pointer active:bg-gray-300 active:rounded-2xl transition duration-500">
+        <div id={title} className="flex flex-col md:flex-row md:justify-center items-center gap-6 mt-20">
             <div className="flex flex-col flex-1 w-full md:w-4/6">
                 <h1 className={textStyle.title}>{title}</h1>
                 <h4 className={`${textStyle.description} mt-4`}>{overviewDesc}</h4>
