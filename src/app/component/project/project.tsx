@@ -5,6 +5,7 @@ import healtikuy from "../../../../public/portofolio-gif/Healtikuy.gif"
 import disasterTracker from "../../../../public/portofolio-gif/Disaster Tracker.gif"
 import bisaDesign from "../../../../public/portofolio-gif/Bisa Design.gif"
 import petCare from "../../../../public/portofolio-gif/Pet Care.gif"
+import socialCommerce from "../../../../public/portofolio-gif/Social Commerce vid.gif"
 
 export default function MyProject() {
   const projects = strings.project;
@@ -18,6 +19,8 @@ export default function MyProject() {
         return bisaDesign;
       case "Pet Care":
         return petCare;
+      case "Social Commerce" :
+        return socialCommerce;
       default:
         // Handle any other cases or provide a default image
         throw TypeError()

@@ -26,9 +26,16 @@
         },
         {
             "title": "Disaster Tracker",
-            "overview": "Disaster Tracker is an Android application designed to monitor disasters occurring in Indonesia. Currently, the app solely relies on crowd-sourced reports from users to track disasters. However, there are plans for future updates that will enhance its functionality. This application is the culmination of a final project developed as part of the Generasi Gigih program by the Goto Impact Foundation.",
+            "overview": "Disaster Tracker is an Android application designed to monitor disasters occurring in Indonesia. Currently, the app solely relies on crowd-sourced reports from users to track disasters. However, there are plans for future updates that will enhance its functionality. This application is the final solo project before the real final project that developed as part of the Generasi Gigih program by the Goto Impact Foundation.",
             "fullDescription": "",
             "repositoryLink": "https://github.com/GG-3-0-Mobile-Engineering/ME14-DisasterTracker-GG3MEGP0596-WahyuKoco",
+            "playstoreLink": null
+        },
+        {
+            "title": "Social Commerce",
+            "overview": "Social Commerce is a platform primarily designed to showcase merchants' product videos. Within this application, users can explore registered merchants and view their promotional or live videos showcasing various products. This application is the culmination of a final project developed by 5 member with me as a team leader,  as part of the Generasi Gigih program by the Goto Impact Foundation. ",
+            "fullDescription": "",
+            "repositoryLink": null,
             "playstoreLink": null
         }
     ]
